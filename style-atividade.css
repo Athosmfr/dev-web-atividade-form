@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    /* box-sizing: border-box; */
+    background-color: #f0f0f0;
+}
+
+main {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(131, 190, 41), rgb(79, 115, 25));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+label, input {
+    display: inline-block;
+    /* padding: 10px; */
+    margin: 0 40px;
+    margin-bottom: 5px;
+}   
+
+label {
+    width: calc(40% - 100px);
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: white;
+}
+
+input {
+    width: calc(60% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #ff002f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 30%;
+}
+
+button[type="reset"] {
+    background-color: #eff549;
+}
+
+button:hover {
+    background-color: #a4001e;
+}
+
+button[type="reset"]:hover {
+    background-color: #a6aa34;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.radios-input {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+}
+
+div {
+    margin: 8px 0;
+}
+
+.radio-input {
+    width: fit-content;
+    text-align: left;
+}
+
+.radio-label {
+    margin: 0;
+}
+
+.sexo-title {
+    margin-top: 8px;
+}
