@@ -92,3 +92,38 @@ div {
 .sexo-title {
     margin-top: 8px;
 }
+
+.titulo-soma {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-calc-soma {
+    display: block;
+    margin: 16px auto;
+    background-color: aqua;
+}
+
+.btn-calc-soma:hover {
+    background-color: rgb(0, 160, 160);
+}
+
+.btn-calc-mult {
+    display: block;
+    margin: 16px auto;
+    background-color: rgb(0, 89, 255);
+}
+
+.btn-calc-mult:hover {
+    background-color: rgb(0, 60, 170);
+}
+
+.array {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
